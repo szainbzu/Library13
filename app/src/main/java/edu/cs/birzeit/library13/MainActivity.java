@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         btnShow = findViewById(R.id.btnShow);
         spnTypes = findViewById(R.id.spnTypes);
         txtResult = findViewById(R.id.txtResult);
+        //this is new code.....
         BookDa bookDa = new BookDa();
         String[] types = bookDa.getBookTypes();
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
